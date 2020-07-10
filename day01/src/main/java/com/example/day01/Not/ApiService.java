@@ -21,6 +21,7 @@ public interface ApiService {
     String Base_yan="http://yun918.cn/";
     @GET("study/public/index.php/verify")
             Observable<ReanBean>getData();
+    String s ="111";
     //注册
     String Base_Url1="https://www.wanandroid.com/";
     @POST("user/register")
